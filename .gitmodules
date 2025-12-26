@@ -1,3 +1,9 @@
 [submodule "[gabz-maps]"]
 	path = [gabz-maps]
 	url = https://github.com/stressydev/horizonr-gabz-maps
+[submodule "[other-maps]"]
+	path = [other-maps]
+	url = https://github.com/stressydev/horizon-maps
+[submodule "[stressy]"]
+	path = [stressy]
+	url = https://github.com/stressydev/-meiku-
