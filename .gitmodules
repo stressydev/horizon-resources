@@ -1,0 +1,3 @@
+[submodule "[gabz-maps]"]
+	path = [gabz-maps]
+	url = https://github.com/stressydev/horizonr-gabz-maps
