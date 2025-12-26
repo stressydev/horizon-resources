@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+	<body>
+        <div id="container">
+            <div class="pump-enclosure">
+                <div class="compact-display" id="main-container">
+                    <div class="scanlines"></div>
+                    
+                    <div class="header">
+                        <span class="status" id="status-text">SYSTEM READY</span>
+                        <div class="price-label">
+                            PRICE PER LITERS
+                            <span class="price-val" id="prival">$3.45⁹</span>
+                        </div>
+                    </div>
+
+                    <div class="metric-group">
+                        <span class="label">Total</span>
+                        <div class="value-wrapper">
+                            <span class="currency-symbol">$</span>
+                            <span class="value" id="sale-val">0.00</span>
+                        </div>
+                    </div>
+
+                    <div class="metric-group">
+                        <span class="label">Liters</span>
+                        <div class="value-wrapper">
+                            <span class="value" id="gal-val">0.000</span>
+                            <span class="small-unit">L</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<script src="scripts.js"></script>
+	</body>
+</html>
